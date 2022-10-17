@@ -1,0 +1,8 @@
+version: '2'
+services:
+  api_fourier:
+    build: .
+    ports:
+    - "5001:5000"
+    volumes:
+      - .:/app
